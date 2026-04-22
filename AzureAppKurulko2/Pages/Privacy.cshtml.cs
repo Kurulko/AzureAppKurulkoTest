@@ -7,6 +7,7 @@ namespace AzureAppKurulko2.Pages
     {
         public void OnGet()
         {
+            throw new Exception("testing insights");
         }
     }
 

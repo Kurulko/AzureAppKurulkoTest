@@ -4,10 +4,17 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/3c8e028c-84cd-4b92-9a74-1ee55ab4a885/resourcegroups/az-204-kurulko/providers/microsoft.insights/components/AzureAppKurulko2</ApplicationInsightsResourceId>
+    <UserSecretsId>c3428384-0eb6-44f0-abdf-4fb4e8b62a08</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.20.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="3.0.0" />
   </ItemGroup>
 
 </Project>
